@@ -13,15 +13,13 @@
     display: flex;
     position: relative;
     top: 0%;
-    z-index: 1;
+    height: 10rem;
 }
 
 #navbar::before{
     content: "";
     background-color: black;
     position: absolute;
-    top:0px;
-    left:0px;
     height: 100%;
     width:100%;
     z-index: -1;
@@ -60,51 +58,35 @@ li{
 
 /* Section CSS */
 
-.sec{
+#welcomeNote{
+    background-image: url('bg.jpg');
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.sec::before{
-    content: "";
-    background: url('bg.jpg') no-repeat center center/cover;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.89;
-    margin-top: 33.6rem;
-}
-
-.sec p{
-    font-size: 3rem;
-    color: yellow;
-    width: 100rem;
-    text-align: center;
-}
-
-.sec h1:hover{
+#heading{
+    font-size: 4.5rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
     color: black;
-    text-shadow: 10px 10px 20px whitesmoke;
-    cursor: default;
-}
-
-.sec h1{
     font-family: 'Patua One', cursive;
-    text-align: center;
-    color: white;
-    padding: 2px;
-    font-size: 5rem;
-    font-weight: bolder;
-    padding-bottom: 10px;
 }
 
-.sec button{
+p{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+a button{
     padding: 1rem 2rem;
     cursor: pointer;
-    margin: 3.5rem 4.5rem;
     font-size: 3rem;
     border-radius: 2rem;
     background-color: tomato;
@@ -113,7 +95,10 @@ li{
     font-family: 'Akaya Kanadaka', cursive;
     font-weight: bolder;
     opacity: 0.85;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
 
 /* Services */
 
@@ -131,7 +116,7 @@ li{
     font-weight: bolder;
     font-size: 5rem;
     font-family: 'Patua One', cursive;
-    margin-top: 13rem;
+    margin-top: -18rem;
     
 }
 
@@ -466,19 +451,6 @@ li{
         flex-direction: column;
     }
     
-    #navbar::before{
-        padding-bottom: 30px;
-    }
-    
-    .sec h1{
-        padding-top: 30px;
-        color: gold;
-    }
-    
-    .sec p{
-        width: 70rem;
-    }
-    
     #serviceDesc{
         flex-direction: column;
         align-items: center;
@@ -524,10 +496,6 @@ li{
         text-align: center;
     }
 
-    .sec p{
-        width: fit-content;
-    }
-
     #menuClicker{
         display: block;
         width: 25px;
@@ -538,5 +506,13 @@ li{
 
     #menuitems{
         overflow: hidden;
+    }
+
+    #heading{
+        font-size: 4rem;
+    }
+
+    #navbar{
+        height: 13rem;
     }
 }

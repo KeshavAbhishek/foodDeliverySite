@@ -26,11 +26,11 @@
             <li class="item"><a href="#contactUsHeadTag">Contact Us</a></li>
         </ul>
     </nav>
-
-    <section class="sec">
-        <h1>Welcome to Online Meal Service</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, quia accusantium adipisci error temporibus eum asperiores ad provident quas velit?Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         
+    <section id="welcomeNote">
+        <h1 id="heading">Welcome to Online Meal Service</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, quia accusantium adipisci errortemporibus eum asperiores ad provident quas velit?Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
         <a><button class="btn">Order Now</button></a>
     </section>
 
@@ -121,17 +121,23 @@
     <script>
         var menuList = document.getElementById('menuitems');
 
-        menuList.style.maxHeight = "0px";
+        menuList.style.height = "230px";
 
         function showhidemenu(){
-            if(menuList.style.maxHeight == "0px"){
-                menuList.style.maxHeight = "fit-content";
+            if(menuList.style.height == "0px"){
+                menuList.style.height = "230px";
 
                 document.getElementById('menuitems').style.transition='height 0.5s ease-in-out';
+
+                document.getElementById('navbar').style.height='35rem';
+                document.getElementById('navbar').style.transition='height 0.5s ease-in-out';
             }
-            else if(menuList.style.maxHeight == "fit-content"){
-                menuList.style.maxHeight = "0px";
+            else if(menuList.style.height == "230px"){
+                menuList.style.height = "0px";
                 document.getElementById('menuitems').style.transition='height 0.5s ease-in-out';
+                
+                document.getElementById('navbar').style.height='13rem';
+                document.getElementById('navbar').style.transition='height 0.5s ease-in-out';
             };
         };
     </script>
