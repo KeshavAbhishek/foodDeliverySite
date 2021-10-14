@@ -4,152 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <title>Food Delivery | KeshavAbhishek.com</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Food Delivery Service | KeshavAbhishek.com</title>
 </head>
 <body>
-    <nav id="navbar">
-        <div id="logo">
-            <img src="images/logo.png" alt="Oops!"><br>
-        </div>
-
-        <img src="images/menu.png" alt="menu" id="menuClicker" onclick="showhidemenu()">
-
-        <ul id="menuitems" class="width-option">
-            <li class="item"><a href="#">Home</a></li>
-            <li class="item"><a href="#serviceLabel">Services</a></li>
-            <li class="item"><a href="#clientHeadTag">Clients</a></li>
-            <li class="item"><a href="#contactUsHeadTag">Contact Us</a></li>
+    <nav id="navigation">
+        <img src="images/logo.png" alt="logo" id="logoImage">
+        <img src="images/menu.png" alt="menu" id="menuController">
+        <ul>
+            <li class="options"><a href="">Home</a></li>
+            <li class="options"><a href="#ourServicesTitle">Our Services</a></li>
+            <li class="options"><a href="">Our Clients</a></li>
+            <li class="options"><a href="">Contact Us</a></li>
         </ul>
     </nav>
-        
-    <section id="welcomeNote">
-        <h1 id="heading">Welcome to Online Meal Service</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, quia accusantium adipisci errortemporibus eum asperiores ad provident quas velit?Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-        <a><button class="btn">Order Now</button></a>
-    </section>
+    <section id="siteDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, ut dolorem. Non repudiandae, qui quia pariatur eligendi odio ipsam dolorum officiis soluta at, a inventore dolor sint quas ullam rerum deserunt vero cumque. Nostrum voluptatibus dicta reiciendis sapiente autem, excepturi aut ad labore quo, est quisquam? Sit excepturi porro ipsam voluptatum temporibus eveniet atque, doloribus vel, ducimus neque ut, minus dolore illum inventore libero id? Atque sunt ea, cumque quod sit velit maiores inventore odio vitae aliquid magni delectus? Voluptates labore inventore accusamus rerum, quae velit. Quae adipisci non id at tempora, asperiores in distinctio saepe incidunt laboriosam dolorum repellendus.</section>
 
-    <section class="services">
-        <h1 id="serviceLabel">OUR SERVICES</h1>
-        <div id="serviceDesc">
-            <div id="normalorder">
-                <img src="css/normalorder.jpg" alt="Error">
-                <h2 id="foodOrdering" class="descFontStyle">Food Ordering</h2>
-                <p id="normalorderDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non eligendi labore quis accusamus explicabo facere id itaque in blanditiis cumque culpa eveniet cupiditate, suscipit reiciendis, consectetur quae alias! Tempore id velit ipsa deleniti numquam perspiciatis exercitationem officia illo aperiam rerum doloribus repellendus hic ex veniam, magni accusantium reiciendis voluptas consequuntur.</p>
+    <div id="ourServices">
+        <label id="ourServicesTitle">OUR SERVICES</label>
+        <section id="ourServicesDescription">
+            <div id="normalDelivery">
+                <img src="css/normalorder.jpg">
+                <p id="normalDeliveryDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque distinctio, atque fugiat praesentium soluta ex eos et quibusdam commodi similique. Commodi corporis libero in incidunt laudantium? Magni facere corrupti repellendus laudantium voluptatem ullam unde dolor molestiae hic nisi, eligendi eos, similique corporis! Sunt reiciendis voluptatum, optio consequatur doloremque praesentium minus id aliquam at officiis voluptatem nihil sit autem, in itaque necessitatibus veniam quo? Alias quaerat nostrum necessitatibus cumque, ullam sapiente iusto deserunt, dolorum quos eligendi eaque. Ullam repudiandae corporis, harum placeat dolorem ratione aut animi, voluptatem laboriosam, vero recusandae nesciunt numquam veniam odio ad aperiam dolores voluptatibus explicabo! Rerum distinctio accusamus consequuntur, tempora et mollitia nihil sapiente fugit ut dolorem quia itaque quas assumenda, recusandae ea. Sequi fuga fugiat rerum aspernatur in iure iste beatae dolore perferendis ex, pariatur ullam aliquid ipsam minus reiciendis dignissimos repudiandae quaerat distinctio, labore nesciunt. Ratione adipisci earum deserunt nobis vero alias, provident aperiam eligendi iusto architecto! Consectetur quas impedit reiciendis totam fugit animi quos, error repudiandae. Perferendis corporis, culpa molestias tenetur est provident veritatis, beatae adipisci optio, facilis iusto corrupti itaque minus! Odio, quam aliquam suscipit excepturi accusamus voluptates cumque velit non. Totam quae eaque nemo necessitatibus omnis repudiandae reprehenderit nobis! Repudiandae, ratione error.</p>
             </div>
-
-            <div id="bulkorder">
-                <img src="css/bulkorder.jpg" alt="Error">
-                <h2 id="bulkOrdering" class="descFontStyle">Bulk Ordering</h2>
-                <p id="bulkorderDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non eligendi labore quis accusamus explicabo facere id itaque in blanditiis cumque culpa eveniet cupiditate, suscipit reiciendis, consectetur quae alias! Tempore id velit ipsa deleniti numquam perspiciatis exercitationem officia illo aperiam rerum doloribus repellendus hic ex veniam, magni accusantium reiciendis voluptas consequuntur.</p>
+            <div id="bulkDelivery">
+                <img src="css/bulkorder.jpg">
+                <p id="bulkDeliveryDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque distinctio, atque fugiat praesentium soluta ex eos et quibusdam commodi similique. Commodi corporis libero in incidunt laudantium? Magni facere corrupti repellendus laudantium voluptatem ullam unde dolor molestiae hic nisi, eligendi eos, similique corporis! Sunt reiciendis voluptatum, optio consequatur doloremque praesentium minus id aliquam at officiis voluptatem nihil sit autem, in itaque necessitatibus veniam quo? Alias quaerat nostrum necessitatibus cumque, ullam sapiente iusto deserunt, dolorum quos eligendi eaque. Ullam repudiandae corporis, harum placeat dolorem ratione aut animi, voluptatem laboriosam, vero recusandae nesciunt numquam veniam odio ad aperiam dolores voluptatibus explicabo! Rerum distinctio accusamus consequuntur, tempora et mollitia nihil sapiente fugit ut dolorem quia itaque quas assumenda, recusandae ea. Sequi fuga fugiat rerum aspernatur in iure iste beatae dolore perferendis ex, pariatur ullam aliquid ipsam minus reiciendis dignissimos repudiandae quaerat distinctio, labore nesciunt. Ratione adipisci earum deserunt nobis vero alias, provident aperiam eligendi iusto architecto! Consectetur quas impedit reiciendis totam fugit animi quos, error repudiandae. Perferendis corporis, culpa molestias tenetur est provident veritatis, beatae adipisci optio, facilis iusto corrupti itaque minus! Odio, quam aliquam suscipit excepturi accusamus voluptates cumque velit non. Totam quae eaque nemo necessitatibus omnis repudiandae reprehenderit nobis! Repudiandae, ratione error.</p>
             </div>
-
-            <div id="homedelivery">
-                <img src="css/homedelivery.png" alt="Error">
-                <h2 id="homedeliver" class="descFontStyle">Home Delivery</h2>
-                <p id="homedeliveryDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non eligendi labore quis accusamus explicabo facere id itaque in blanditiis cumque culpa eveniet cupiditate, suscipit reiciendis, consectetur quae alias! Tempore id velit ipsa deleniti numquam perspiciatis exercitationem officia illo aperiam rerum doloribus repellendus hic ex veniam, magni accusantium reiciendis voluptas consequuntur.</p>
+            <div id="homeDelivery">
+                <img src="css/homedelivery.png">
+                <p id="homeDeliveryDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque distinctio, atque fugiat praesentium soluta ex eos et quibusdam commodi similique. Commodi corporis libero in incidunt laudantium? Magni facere corrupti repellendus laudantium voluptatem ullam unde dolor molestiae hic nisi, eligendi eos, similique corporis! Sunt reiciendis voluptatum, optio consequatur doloremque praesentium minus id aliquam at officiis voluptatem nihil sit autem, in itaque necessitatibus veniam quo? Alias quaerat nostrum necessitatibus cumque, ullam sapiente iusto deserunt, dolorum quos eligendi eaque. Ullam repudiandae corporis, harum placeat dolorem ratione aut animi, voluptatem laboriosam, vero recusandae nesciunt numquam veniam odio ad aperiam dolores voluptatibus explicabo! Rerum distinctio accusamus consequuntur, tempora et mollitia nihil sapiente fugit ut dolorem quia itaque quas assumenda, recusandae ea. Sequi fuga fugiat rerum aspernatur in iure iste beatae dolore perferendis ex, pariatur ullam aliquid ipsam minus reiciendis dignissimos repudiandae quaerat distinctio, labore nesciunt. Ratione adipisci earum deserunt nobis vero alias, provident aperiam eligendi iusto architecto! Consectetur quas impedit reiciendis totam fugit animi quos, error repudiandae. Perferendis corporis, culpa molestias tenetur est provident veritatis, beatae adipisci optio, facilis iusto corrupti itaque minus! Odio, quam aliquam suscipit excepturi accusamus voluptates cumque velit non. Totam quae eaque nemo necessitatibus omnis repudiandae reprehenderit nobis! Repudiandae, ratione error.</p>
             </div>
-        </div>
-    </section>
-
-    <section id="clientHeadTag" class="maxing-width">
-        <h2 id="clientHeadTag" class="maxing-width">OUR CLIENTS</h2>
-    </section>
-
-    <section class="client">
-        <div class="clientLogo">
-            <div id="appleLogo">
-                <img src="css/apple.png" alt="clients">
-            </div>
-
-            <div id="microsoftLogo" alt="clients">
-                <img src="css/microsoft.png" alt="clients">
-            </div>
-
-            <div id="hpLogo" alt="clients">
-                <img src="css/hp.png" alt="clients">
-            </div>
-
-            <div id="skypeLogo" alt="clients">
-                <img src="css/skype.png" alt="clients">
-            </div>
-        </div>
-    </section>
-
-    <section id="contactUsTag" class="maxing-width">
-        <h2 id="contactUsHeadTag" class="maxing-width">CONTACT US</h2>
-    </section>
-
-    <section id="contact">
-        <div class="contactObject">
-            <div id="username">
-                <label class="contactDetails">Name</label>
-                <input type="text" class="name" placeholder="Enter Your Name">
-            </div>
-
-            <div id="phoneno">
-                <label class="contactDetails">Phone No.</label>
-                <input type="text" class="num" placeholder="Enter Your Phone No.">
-            </div>
-
-            <div id="emailaddress">
-                <label class="contactDetails">Email Address</label>
-                <input type="email" class="electronicmail" placeholder="Enter Your Email Address">
-            </div>
-
-            <div id="message">
-                <label class="contactDetails">Message</label>
-                <textarea class="feedback" placeholder="Type a Message"></textarea>
-            </div>
-
-            <div class="submit">
-                <button class="submitbtn">SUBMIT</button>
-            </div>
-        </div>
-    </section>
-    <footer class="copyrightstrip maxing-width">
-        <h3 class="copyright maxing-width">
-            Copyright &copy; 2021. All rights are reserved.
-        </h3>
-    </footer>
-
-    <script>
-        var menuList = document.getElementById('menuitems');
-
-        menuList.style.height = "190px";
-
-        function showhidemenu(){
-            if(menuList.style.height == "0px"){
-                menuList.style.height = "190px";
-                
-                
-                document.getElementById('menuitems').style.transition='height 0.5s ease-in-out';
-                
-                document.getElementById('navbar').style.height='35rem';
-                document.getElementById('navbar').style.transition='height 0.5s ease-in-out';
-                
-                setTimeout(() => {
-                    document.getElementById('menuitems').style.zIndex='1';
-                }, 1000);
-            }
-
-            else if(menuList.style.height == "190px"){
-                document.getElementById('menuitems').style.zIndex='-1';
-
-                menuList.style.height = "0px";
-                document.getElementById('menuitems').style.transition='height 0.5s ease-in-out';
-                
-                document.getElementById('navbar').style.height='13rem';
-                document.getElementById('navbar').style.transition='height 0.5s ease-in-out';
-
-            };
-        };
-    </script>
-
+        </section>
+    </div>
+    
+    <script src="javascript/funtions.js"></script>
 </body>
 </html>
