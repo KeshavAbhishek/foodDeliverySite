@@ -515,4 +515,12 @@ a button{
     #navbar{
         height: 13rem;
     }
+
+    .width-option{
+        width: 43vw;
+    }
+
+    .maxing-width{
+        width: 100%;
+    }
 }

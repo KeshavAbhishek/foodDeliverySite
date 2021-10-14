@@ -19,7 +19,7 @@
 
         <img src="images/menu.png" alt="menu" id="menuClicker" onclick="showhidemenu()">
 
-        <ul id="menuitems">
+        <ul id="menuitems" class="width-option">
             <li class="item"><a href="#">Home</a></li>
             <li class="item"><a href="#serviceLabel">Services</a></li>
             <li class="item"><a href="#clientHeadTag">Clients</a></li>
@@ -57,8 +57,8 @@
         </div>
     </section>
 
-    <section id="clientHeadTag">
-        <h2 id="clientHeadTag">OUR CLIENTS</h2>
+    <section id="clientHeadTag" class="maxing-width">
+        <h2 id="clientHeadTag" class="maxing-width">OUR CLIENTS</h2>
     </section>
 
     <section class="client">
@@ -81,8 +81,8 @@
         </div>
     </section>
 
-    <section id="contactUsTag">
-        <h2 id="contactUsHeadTag">CONTACT US</h2>
+    <section id="contactUsTag" class="maxing-width">
+        <h2 id="contactUsHeadTag" class="maxing-width">CONTACT US</h2>
     </section>
 
     <section id="contact">
@@ -112,8 +112,8 @@
             </div>
         </div>
     </section>
-    <footer class="copyrightstrip">
-        <h3 class="copyright">
+    <footer class="copyrightstrip maxing-width">
+        <h3 class="copyright maxing-width">
             Copyright &copy; 2021. All rights are reserved.
         </h3>
     </footer>
@@ -121,23 +121,32 @@
     <script>
         var menuList = document.getElementById('menuitems');
 
-        menuList.style.height = "230px";
+        menuList.style.height = "190px";
 
         function showhidemenu(){
             if(menuList.style.height == "0px"){
-                menuList.style.height = "230px";
-
+                menuList.style.height = "190px";
+                
+                
                 document.getElementById('menuitems').style.transition='height 0.5s ease-in-out';
-
+                
                 document.getElementById('navbar').style.height='35rem';
                 document.getElementById('navbar').style.transition='height 0.5s ease-in-out';
+                
+                setTimeout(() => {
+                    document.getElementById('menuitems').style.zIndex='1';
+                }, 1000);
             }
-            else if(menuList.style.height == "230px"){
+
+            else if(menuList.style.height == "190px"){
+                document.getElementById('menuitems').style.zIndex='-1';
+
                 menuList.style.height = "0px";
                 document.getElementById('menuitems').style.transition='height 0.5s ease-in-out';
                 
                 document.getElementById('navbar').style.height='13rem';
                 document.getElementById('navbar').style.transition='height 0.5s ease-in-out';
+
             };
         };
     </script>
