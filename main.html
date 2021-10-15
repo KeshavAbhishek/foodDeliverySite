@@ -14,12 +14,12 @@
         <ul>
             <li class="options"><a href="">Home</a></li>
             <li class="options"><a href="#ourServicesTitle">Our Services</a></li>
-            <li class="options"><a href="">Our Clients</a></li>
-            <li class="options"><a href="">Contact Us</a></li>
+            <li class="options"><a href="#ourClients">Our Clients</a></li>
+            <li class="options"><a href="#contactUs">Contact Us</a></li>
         </ul>
     </nav>
 
-    <section id="siteDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, ut dolorem. Non repudiandae, qui quia pariatur eligendi odio ipsam dolorum officiis soluta at, a inventore dolor sint quas ullam rerum deserunt vero cumque. Nostrum voluptatibus dicta reiciendis sapiente autem, excepturi aut ad labore quo, est quisquam? Sit excepturi porro ipsam voluptatum temporibus eveniet atque, doloribus vel, ducimus neque ut, minus dolore illum inventore libero id? Atque sunt ea, cumque quod sit velit maiores inventore odio vitae aliquid magni delectus? Voluptates labore inventore accusamus rerum, quae velit. Quae adipisci non id at tempora, asperiores in distinctio saepe incidunt laboriosam dolorum repellendus.</section>
+    <section id="siteDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores autem nulla consequuntur dolorem alias aperiam ea impedit, illo tempora nobis facilis, laudantium repellat numquam minima quibusdam minus libero cupiditate quas labore? Iste odit quibusdam sequi consectetur inventore, repudiandae laudantium voluptas! Ratione excepturi pariatur voluptates ipsum? Cumque quam nostrum animi!</section>
 
     <div id="ourServices">
         <label id="ourServicesTitle">OUR SERVICES</label>
@@ -39,6 +39,30 @@
         </section>
     </div>
     
-    <script src="javascript/funtions.js"></script>
+    <div id="ourClients">
+        <label id="ourClientsTitle">OUR CLIENTS</label>
+        <section id="ourClientLogoCollection">
+            <img src="css/apple.png" class="ourClientsLogoSizeController">
+            <img src="css/microsoft.png" class="ourClientsLogoSizeController">
+            <img src="css/hp.png" class="ourClientsLogoSizeController">
+            <img src="css/skype.png" class="ourClientsLogoSizeController" style="width: 50vh;">
+        </section>
+    </div>
+
+    <div id="contactUs">
+        <label id="contactUsTitle">CONTACT US</label>
+        <section id="contactUsForm">
+            <input type="text" id="nameEntry" placeholder="Enter your full name" class="inputsDecoration">
+            <input type="number" id="ageEntry" placeholder="Enter your age" class="inputsDecoration">
+            <input type="email" id="emailEntry" placeholder="Enter your email address" class="inputsDecoration">
+            <textarea id="feebackEntry" placeholder="Give your feedback..." class="inputsDecoration" style="font-size: 150%;height: 25vh;border-radius: 5px;"></textarea>
+            <button id="submitButton">SUBMIT</button>
+        </section>
+    </div>
+    <footer id="endPage">
+        Copyright &copy; 2021 | KESHAV ABHISHEK
+    </footer>
+
+    <script src="javascript/functions.js"></script>
 </body>
 </html>
