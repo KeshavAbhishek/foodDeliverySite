@@ -212,7 +212,7 @@ ul li a:hover::after{
     margin: 0.4%;
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
-    width: 35vw;
+    width: 80%;
     background-color: transparent;
     border: 2px solid black;
     border-radius: 5px;
@@ -239,10 +239,10 @@ ul li a:hover::after{
     border-radius: 2vw;
     border: none;
     cursor: pointer;
-    width: 20vw;
-    background: linear-gradient(to right,red,orange);
+    width: 50%;
+    background: linear-gradient(to right,red,orange,yellow,orange,red);
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color:black;
     font-weight: bolder;
 }
 
@@ -280,8 +280,8 @@ ul li a:hover::after{
     }
 
     #logoImage{
-        width: 18vh;
-        height: 15vw;
+        width: 30%;
+        height: 100%;
     }
     
     #container{
