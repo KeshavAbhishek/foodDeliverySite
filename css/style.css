@@ -260,7 +260,7 @@ ul li a:hover::after{
 
 /* MEDIA QUERY - FIRES */
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:380px){
     #container{
         flex-direction: column;
     }
@@ -285,7 +285,7 @@ ul li a:hover::after{
     }
     
     #container{
-        height: 17vh;
+        height: 16vh;
     }
 
     #ourServicesDescription{

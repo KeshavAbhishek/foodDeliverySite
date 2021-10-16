@@ -54,18 +54,18 @@ document.getElementById('feebackEntry').addEventListener('mouseleave',()=>{
     document.getElementById('feebackEntry').style.transition='all 0.5s ease-in-out';
 });
 
-var containerHeight='17vh';
+var containerHeight='16vh';
 
 function showhidemenu(){
     
-    if(containerHeight=='17vh'){
+    if(containerHeight=='16vh'){
         document.getElementById('container').style.height='40vh';
         document.getElementById('container').style.transition='height 0.5s ease-in-out';
         containerHeight='40vh';
     } 
     else if(containerHeight=='40vh'){
-        document.getElementById('container').style.height='17vh';
+        document.getElementById('container').style.height='16vh';
         document.getElementById('container').style.transition='height 0.5s ease-in-out';
-        containerHeight='17vh';
+        containerHeight='16vh';
     }
 }
