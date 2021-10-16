@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav id="navigation">
+    <div id="container">
         <img src="images/logo.png" alt="logo" id="logoImage">
-        <img src="images/menu.png" alt="menu" id="menuController">
-        <ul>
-            <li class="options"><a href="">Home</a></li>
-            <li class="options"><a href="#ourServicesTitle">Our Services</a></li>
-            <li class="options"><a href="#ourClients">Our Clients</a></li>
-            <li class="options"><a href="#contactUs">Feedback</a></li>
-        </ul>
-    </nav>
+        <nav id="navigation">
+            <ul>
+                <li class="options"><a href="">Home</a></li>
+                <li class="options"><a href="#ourServicesTitle">Our Services</a></li>
+                <li class="options"><a href="#ourClients">Our Clients</a></li>
+                <li class="options"><a href="#contactUs">Feedback</a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.png" alt="menu" id="menuController" onclick="showhidemenu()">
+    </div>
 
     <section id="siteDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores autem nulla consequuntur dolorem alias aperiam ea impedit, illo tempora nobis facilis, laudantium repellat numquam minima quibusdam minus libero cupiditate quas labore? Iste odit quibusdam sequi consectetur inventore, repudiandae laudantium voluptas! Ratione excepturi pariatur voluptates ipsum? Cumque quam nostrum animi!</section>
 
@@ -26,14 +28,17 @@
         <section id="ourServicesDescription">
             <div id="normalDelivery">
                 <img src="css/normalorder.jpg">
+                <h2 id="foodOrdering" class="descFontStyle" style="color: red;">Food Ordering</h2>
                 <p id="normalDeliveryDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque distinctio, atque fugiat praesentium soluta ex eos et quibusdam commodi similique. Commodi corporis libero in incidunt laudantium? Magni facere corrupti repellendus laudantium voluptatem ullam unde dolor molestiae hic nisi, eligendi eos, similique corporis! Sunt reiciendis voluptatum, optio consequatur doloremque praesentium minus id aliquam at officiis voluptatem nihil sit autem, in itaque necessitatibus veniam quo? Alias quaerat nostrum necessitatibus cumque, ullam sapiente iusto deserunt, dolorum quos eligendi eaque. Ullam repudiandae corporis, harum placeat dolorem ratione aut animi, voluptatem laboriosam, vero recusandae nesciunt numquam veniam odio ad aperiam dolores voluptatibus explicabo! Rerum distinctio accusamus consequuntur, tempora et mollitia nihil sapiente fugit ut dolorem quia itaque quas assumenda, recusandae ea. Sequi fuga fugiat rerum aspernatur in iure iste beatae dolore perferendis ex, pariatur ullam aliquid ipsam minus reiciendis dignissimos repudiandae quaerat distinctio, labore nesciunt. Ratione adipisci earum deserunt nobis vero alias, provident aperiam eligendi iusto architecto! Consectetur quas impedit reiciendis totam fugit animi quos, error repudiandae. Perferendis corporis, culpa molestias tenetur est provident veritatis, beatae adipisci optio, facilis iusto corrupti itaque minus! Odio, quam aliquam suscipit excepturi accusamus voluptates cumque velit non. Totam quae eaque nemo necessitatibus omnis repudiandae reprehenderit nobis! Repudiandae, ratione error.</p>
             </div>
             <div id="bulkDelivery">
                 <img src="css/bulkorder.jpg">
+                <h2 id="bulkOrdering" class="descFontStyle" style="color: black;">Bulk Ordering</h2>
                 <p id="bulkDeliveryDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque distinctio, atque fugiat praesentium soluta ex eos et quibusdam commodi similique. Commodi corporis libero in incidunt laudantium? Magni facere corrupti repellendus laudantium voluptatem ullam unde dolor molestiae hic nisi, eligendi eos, similique corporis! Sunt reiciendis voluptatum, optio consequatur doloremque praesentium minus id aliquam at officiis voluptatem nihil sit autem, in itaque necessitatibus veniam quo? Alias quaerat nostrum necessitatibus cumque, ullam sapiente iusto deserunt, dolorum quos eligendi eaque. Ullam repudiandae corporis, harum placeat dolorem ratione aut animi, voluptatem laboriosam, vero recusandae nesciunt numquam veniam odio ad aperiam dolores voluptatibus explicabo! Rerum distinctio accusamus consequuntur, tempora et mollitia nihil sapiente fugit ut dolorem quia itaque quas assumenda, recusandae ea. Sequi fuga fugiat rerum aspernatur in iure iste beatae dolore perferendis ex, pariatur ullam aliquid ipsam minus reiciendis dignissimos repudiandae quaerat distinctio, labore nesciunt. Ratione adipisci earum deserunt nobis vero alias, provident aperiam eligendi iusto architecto! Consectetur quas impedit reiciendis totam fugit animi quos, error repudiandae. Perferendis corporis, culpa molestias tenetur est provident veritatis, beatae adipisci optio, facilis iusto corrupti itaque minus! Odio, quam aliquam suscipit excepturi accusamus voluptates cumque velit non. Totam quae eaque nemo necessitatibus omnis repudiandae reprehenderit nobis! Repudiandae, ratione error.</p>
             </div>
             <div id="homeDelivery">
                 <img src="css/homedelivery.png">
+                <h2 id="homedeliver" class="descFontStyle">Home Delivery</h2>
                 <p id="homeDeliveryDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque distinctio, atque fugiat praesentium soluta ex eos et quibusdam commodi similique. Commodi corporis libero in incidunt laudantium? Magni facere corrupti repellendus laudantium voluptatem ullam unde dolor molestiae hic nisi, eligendi eos, similique corporis! Sunt reiciendis voluptatum, optio consequatur doloremque praesentium minus id aliquam at officiis voluptatem nihil sit autem, in itaque necessitatibus veniam quo? Alias quaerat nostrum necessitatibus cumque, ullam sapiente iusto deserunt, dolorum quos eligendi eaque. Ullam repudiandae corporis, harum placeat dolorem ratione aut animi, voluptatem laboriosam, vero recusandae nesciunt numquam veniam odio ad aperiam dolores voluptatibus explicabo! Rerum distinctio accusamus consequuntur, tempora et mollitia nihil sapiente fugit ut dolorem quia itaque quas assumenda, recusandae ea. Sequi fuga fugiat rerum aspernatur in iure iste beatae dolore perferendis ex, pariatur ullam aliquid ipsam minus reiciendis dignissimos repudiandae quaerat distinctio, labore nesciunt. Ratione adipisci earum deserunt nobis vero alias, provident aperiam eligendi iusto architecto! Consectetur quas impedit reiciendis totam fugit animi quos, error repudiandae. Perferendis corporis, culpa molestias tenetur est provident veritatis, beatae adipisci optio, facilis iusto corrupti itaque minus! Odio, quam aliquam suscipit excepturi accusamus voluptates cumque velit non. Totam quae eaque nemo necessitatibus omnis repudiandae reprehenderit nobis! Repudiandae, ratione error.</p>
             </div>
         </section>

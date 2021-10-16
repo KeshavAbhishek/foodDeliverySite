@@ -53,3 +53,19 @@ document.getElementById('feebackEntry').addEventListener('mouseleave',()=>{
     document.getElementById('feebackEntry').style.width='35vw';
     document.getElementById('feebackEntry').style.transition='all 0.5s ease-in-out';
 });
+
+var containerHeight='17vh';
+
+function showhidemenu(){
+    
+    if(containerHeight=='17vh'){
+        document.getElementById('container').style.height='38vh';
+        document.getElementById('container').style.transition='height 0.5s ease-in-out';
+        containerHeight='38vh';
+    } 
+    else if(containerHeight=='38vh'){
+        document.getElementById('container').style.height='17vh';
+        document.getElementById('container').style.transition='height 0.5s ease-in-out';
+        containerHeight='17vh';
+    }
+}
