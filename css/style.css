@@ -204,7 +204,7 @@ ul li a:hover::after{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background: url(contact.jpg);
+    background: url(contact.jpg) no-repeat center;
     padding: 1%;
 }
 
